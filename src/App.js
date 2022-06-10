@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Home from "./components/Home";
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
           Khudai suru kardo koi blog ka ui dekhk bhadia home page banao ek mai
           backend deta fir
         </h1>
+        <Home/>
       </div>
     );
   }
